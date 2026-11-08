@@ -1,6 +1,6 @@
 
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Righteous&display=swap');
 
 
 /* General Styling */
@@ -157,10 +157,13 @@ body {
     border: 0;
     border-radius: 9px;
     color: #111;
-    font: 400 12px Arial, sans-serif;
+    font: 800 14px 'Outfit', Arial, sans-serif;
     text-decoration: none;
     height: 33px;
-    width: 122px;
+    min-width: 122px;
+    width: auto;
+    padding: 0 12px;
+    box-sizing: border-box; 
     cursor: pointer;
 }
 
@@ -728,4 +731,95 @@ main {
     .contact h2 {
         font-size: 2rem;
     }
+
+    
+/* Figma fonts */
+
+/* Body text */
+body {
+    font-family: 'Outfit', Arial, sans-serif;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+.tagline,
+.copy h2,
+.contact h2 {
+    font-family: 'Righteous', cursive;
+}
+
+/* Paragraphs */
+p {
+    font-family: 'Outfit', Arial, sans-serif;
+}
+
+/* Navigation buttons */
+.header nav a {
+    font-family: 'Outfit', Arial, sans-serif;
+}
+
+/* Contact form text */
+.contact input,
+.contact textarea {
+    font-family: 'Outfit', Arial, sans-serif;
+}
+
+/* Glossy Y2K buttons */
+
+.header nav a {
+    background: linear-gradient(
+        to bottom,
+        #ffffff 0%,
+        #d8f6ff 20%,
+        #8cddff 45%,
+        #31b7f4 52%,
+        #0879bc 100%
+    );
+
+    border: 2px solid #ffffff;
+    border-radius: 14px;
+
+    box-shadow:
+        inset 0 2px 3px rgba(255, 255, 255, 0.95),
+        inset 0 -3px 5px rgba(0, 65, 130, 0.3),
+        0 4px 8px rgba(0, 80, 150, 0.35);
+
+    color: #063b65;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+/* Glossy hover effect */
+
+.header nav a:hover {
+    background: linear-gradient(
+        to bottom,
+        #ffffff 0%,
+        #e9faff 25%,
+        #b6ecff 48%,
+        #5bceff 52%,
+        #149bdc 100%
+    );
+
+    box-shadow:
+        inset 0 2px 4px #ffffff,
+        0 0 12px rgba(87, 207, 255, 0.8),
+        0 5px 10px rgba(0, 80, 150, 0.3);
+}
+.header nav a {
+    font-family: 'Outfit', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* Bold Outfit navigation buttons */
+.header nav a {
+    font-family: 'Outfit', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+}
 }
