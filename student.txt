@@ -2,4 +2,4 @@ Student name: Yasmine Askri
 Student number: 765358
 Student class: IT1C
 GitHub Repository: https://github.com/askriyasmine/tunisia-travel-guide.git
-GitHub Pages URL: [YOUR PUBLISHED WEBSITE URL]
+GitHub Pages URL: https://askriyasmine.github.io/tunisia-travel-guide/
