@@ -822,4 +822,14 @@ p {
     font-size: 12px;
     font-weight: 800;
 }
+/* Keep the site background visible on smaller screens */
+
+@media (max-width: 768px) {
+    .site {
+        background-image: url("../img/sahara2.jpg");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+}
 }
